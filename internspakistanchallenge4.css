@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&family=Roboto:wght@100;400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  width: 65px;
+  margin-top: 20px;
+}
+
+.cont-1 {
+  background-color: #f5e9e9;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.menu-1-para {
+  font-size: 0.9rem;
+}
+
+.screen-img {
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+.screen-btn {
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: 100%;
+  margin-top: 3px;
+  padding: 9px;
+  font-size: 18px;
+  margin-bottom: 26px;
+}
+
+.more-img {
+  width: 60px;
+  display: block;
+  margin: auto;
+}
+
+.menu-2-head {
+  font-size: 1.1rem;
+}
+
+.menu-2-para {
+  font-size: 0.8rem;
+}
+
+
+/* Page 2 */
+
+.fever-img {
+  width: 300px;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.title-page {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.button-page {
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: 100%;
+  padding: 12px;
+}
+
+.heading {
+  font-size: 1.1rem;
+}
+
+.menu-3-para {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.link {
+  margin-top: 10px;
+  color: black;
+  cursor: pointer;
+}
+
+.description-para {
+  font-size: 15px;
+}
+
+.question-menu .container-fluid {
+  display: none;
+}
+
+.question-menu .active {
+  display: block;
+}
+
+.img-arrow {
+  margin-top: 15px;
+}
+
+
+/* ----- MODAL STYLE ----- */
+
+.modal-content {
+  border-radius: 0;
+  border: none;
+}
+
+.modal-header .img-logo {
+  position: relative;
+  top: 8px;
+}
+
+.modal-header {
+  border-bottom-color: #e9ecef;
+  background-color: #e9ecef;
+  height: 65px;
+}
+
+.modal-body h3 {
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 25px;
+}
+
+.modal-body a {
+  color: #333;
+}
+
+.modal-dialog {
+  position: fixed;
+  width: auto;
+  margin: 0px;
+  pointer-events: none;
+  height: 100%;
+  background: white;
+}
+
+.question .btn {
+  width: 100%;
+  display: block;
+}
+
+.bottom-question {
+  position: fixed;
+  bottom: 31px;
+  width: 371px;
+  max-width: 80%;
+}
